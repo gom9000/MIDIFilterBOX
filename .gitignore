@@ -1,0 +1,19 @@
+# dir
+build/
+debug/
+dist/
+
+# build
+*.err
+*.lst
+*.o
+*.o.d
+
+# dist
+*.cof
+*.map
+*.hex
+
+*.fil
+
+# others
