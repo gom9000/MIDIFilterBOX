@@ -8,14 +8,32 @@ MIDI message groups can be filtered individually or simultaneously.
 
 ![midifilterbox-mercury.jpg](images/midifilterbox-mercury.jpg)
 
+## Specifications
 
-## Features
+### Features
 - 5-12V DC power plug for external power supply
 - MIDI-in and MIDI-out connectors
 - MIDI in/out leds activity
 - 4-bit switch-array to configure the midi channel, bcd coded: *0000 -> 0=all channels*, *0001* -> channel 1, ..., *1111 -> channel 15*
 - 3-bit switch-array to configure the groups of MIDI messages to filter (Channel-Volume, CC, Note On/Off)
 - 3-bit led-array to show the actual filter status
+
+### Hardware
+Schematics and PCB layouts are designed with ExpressPCB free CAD software.
+
+#### Schematic
+![board-schematic](hardware/midi-filter-box_sch.jpg)
+
+#### PCB Layout
+
+##### The main board
+![board-pcb](hardware/midi-filter-box_pcb_a.jpg)
+
+##### The controller board
+![board-pcb](hardware/midi-filter-box_pcb_b.jpg)
+
+### Firmware
+Software is written and compiled with MPLabX IDE.
 
 
 ## Changes
