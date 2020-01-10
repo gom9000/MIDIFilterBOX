@@ -12,5 +12,5 @@
 ### The main board
 ![board-pcb](midi-filter-box_pcb_a.jpg)
 
-### The controller board
+### The panel board
 ![board-pcb](midi-filter-box_pcb_b.jpg)
